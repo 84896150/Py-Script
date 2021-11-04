@@ -251,7 +251,7 @@ class msg(object):
         if a == 0:
             a += 1
         try:
-            url = 'https://gitee.com/curtinlv/Public/raw/master/sendNotify.py'
+            url = 'https://gitee.com/xiongchao/Py-Script/raw/main/sendNotify.py'
             response = requests.get(url)
             if 'curtinlv' in response.text:
                 with open('sendNotify.py', "w+", encoding="utf-8") as f:
