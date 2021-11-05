@@ -2,7 +2,7 @@
 # -*- coding: utf8 -*-
 """
 说明: 环境变量`KJWJ_UP`账号和密码用`-`分割     例如： 账号-密码
-cron: 20 7 * * *
+cron: 20 12 * * *
 new Env('科技玩家-签到');
 """
 import os, sys
